@@ -12,7 +12,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>THIS IS IN THE DEV - I am pushing to dev now - 2</h1>
+        <h1>THIS IS IN THE DEV - I am pushing to dev now - 3</h1>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li>Accomplish with Uncle Packy</li>
           <li className="mb-2">
