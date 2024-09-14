@@ -36,7 +36,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 echo "# deploy-vercel" >> README.md
+
+```bash
+
 git init
+
 git add README.md
 git commit -m "first commit"
 git branch -M main
@@ -53,3 +57,4 @@ I am goind to try to create a new branch and switch to it"
 TO CREATE A NEW BRANCH AND SWITCH TO IT IN ONE GO WE CAN:
 
 - git switch -c <new-name>
+```
