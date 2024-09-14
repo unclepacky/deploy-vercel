@@ -42,3 +42,14 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/unclepacky/deploy-vercel.git
 git push -u origin main
+
+I am goind to try to create a new branch and switch to it"
+
+- To create a new branch:
+  git branch <new-name>
+- to switch to that branch
+  git checkout <new-name>
+
+TO CREATE A NEW BRANCH AND SWITCH TO IT IN ONE GO WE CAN:
+
+- git switch -c <new-name>
