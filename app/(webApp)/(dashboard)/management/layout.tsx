@@ -1,3 +1,4 @@
+import Navbar from "@/app/components/Navbar";
 import React from "react";
 
 export default function ManagementLayout({
@@ -7,8 +8,7 @@ export default function ManagementLayout({
 }) {
   return (
     <div>
-      {/* <Navbar /> */}
-      <div>test</div>
+      <Navbar />
       <section className="bg-orange-500 min-h-screen">{children}</section>
     </div>
   );
