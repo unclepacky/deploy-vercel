@@ -7,9 +7,11 @@ export default function WebsiteLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <section className="bg-amber-500 min-h-screen">{children}</section>
+      <section className="bg-slate-300 flex grow justify-center items-center">
+        {children}
+      </section>
     </div>
   );
 }
